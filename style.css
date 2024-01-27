@@ -17,3 +17,23 @@
   border: 2px solid black;
   margin-bottom: 2rem;
 }
+
+.event h1 {
+  padding-left: 1.5rem;
+}
+
+.event h2 {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.event p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.location {
+  font-size: 0.8rem;
+  align-items: baseline;
+}
