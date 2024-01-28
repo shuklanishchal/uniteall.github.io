@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Indian Culture</a>
+              <a class="nav-link nav-active" aria-current="page" href="#">Indian Culture</a>
             </li>
           </ul>
           <div class='d-flex'>
@@ -23,8 +23,14 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">98031</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Profile</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Profile
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Saved Events</a></li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -39,15 +45,15 @@
       </div><br/>
       <div class="m-5 mt-0">
         <ul class="menus">
-          <li>Events</li>
-          <li>Organizations</li>
-          <li>Restaurants</li>
-          <li>Stores</li>
+          <li class="menu-item active" id="events">Events</li>
+          <li class="menu-item" id="organizations">Organizations</li>
+          <li class="menu-item" id="restaurants">Restaurants</li>
+          <li class="menu-item" id="stores">Stores</li>
         </ul>
       </div>
     </div>
     <div class="container event-list">
-      <div class="mb-5"><h1>Events</h1></div>
+      <div class="mb-5"><h1 id="menu-selected">Featured Events</h1></div>
       <div class="event">
         <h2>Event</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>

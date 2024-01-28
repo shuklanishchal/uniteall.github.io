@@ -37,3 +37,7 @@
   font-size: 0.8rem;
   align-items: baseline;
 }
+
+.active {
+  font-weight: bold;
+}
