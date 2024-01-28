@@ -4,28 +4,31 @@
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">UniteAll</a>
+        <a class="navbar-brand" href="#"><img id="logo" src="Group 2.png" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link nav-active" aria-current="page" href="#">Indian Culture</a>
+              <a class="nav-link nav-active" aria-current="page" href="#"><b>India</b></a>
             </li>
           </ul>
           <div class='d-flex'>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">98031</a>
+                <a class="nav-link nav-active" aria-current="page" href="#">98031 <img class="profile" src="location.png" /></a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Profile
+                  <img class="profile" src='profile.png' />
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Settings</a></li>
@@ -45,15 +48,15 @@
       </div><br/>
       <div class="m-5 mt-0">
         <ul class="menus">
-          <li class="menu-item active" id="events">Events</li>
-          <li class="menu-item" id="organizations">Organizations</li>
-          <li class="menu-item" id="restaurants">Restaurants</li>
-          <li class="menu-item" id="stores">Stores</li>
+          <li class="menu-item" id="Events">Events<br/><img src="events.png" /></li>
+          <li class="menu-item" id="Organizations">Organizations<br/><img src="organizations.png" /></li>
+          <li class="menu-item" id="Restaurants">Restaurants<br/><img src="restaurants.png" /></li>
+          <li class="menu-item" id="Stores">Stores<br/><img src="stores.png" /></li>
         </ul>
       </div>
     </div>
     <div class="container event-list">
-      <div class="mb-5"><h1 id="menu-selected">Featured Events</h1></div>
+      <div class="mb-5"><h1 id="menu-selected">Featured Near You</h1></div>
       <div class="event">
         <h2>Event</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -65,6 +68,7 @@
         <p class="location">0.5 miles away | 4.5 stars</p>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>

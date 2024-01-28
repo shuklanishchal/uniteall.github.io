@@ -1,11 +1,10 @@
-const el = document.querySelectorAll(".menu-item");
-for(var i = 0; i < el.length; i++) {
+let el = document.querySelectorAll(".menu-item");
+for(let i = 0; i < el.length; i++) {
   el[i].onclick = function() {
-    const actives = document.querySelectorAll(".active");
-    for(var i = 0; i < actives.length; i++) {
-      actives[i].classList.remove("active");
+    if(document.querySelector(".active") != null) {
+      document.querySelector(".active").classList.remove("active");
     }
-    document.querySelector("#menu-selected").innerHTML = "Featured " + this.innerHTML;
+    document.querySelector("#menu-selected").innerHTML = "Featured " + this.id;
     this.classList.add("active");
   }
 }
