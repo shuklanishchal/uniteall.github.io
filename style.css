@@ -21,8 +21,10 @@ body {
 }
 
 .event {
-  border: 2px solid black;
+  border: 1px solid #D78436;
+  border-radius: 10px;
   margin-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .event h1 {
@@ -30,7 +32,7 @@ body {
 }
 
 .event h2 {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   padding-left: 1rem;
   margin-bottom: 1rem;
 }
